@@ -5,6 +5,10 @@
     "dependencies": {
         "cordova-browser": "~4.1.0",
         "cordova-ios": "^4.4.0",
+        "cordova-plugin-compat": "^1.1.0",
+        "cordova-plugin-file": "^4.3.3",
+        "cordova-plugin-ios-ble-permissions": "^1.0.1",
+        "cordova-plugin-media-capture": "^1.4.3",
         "gulp": "^3.9.1",
         "gulp-concat": "^2.2.0",
         "gulp-minify-css": "^0.3.0",
@@ -27,6 +31,14 @@
     "cordova": {
         "platforms": [
             "browser"
-        ]
+        ],
+        "plugins": {
+            "cordova-plugin-media-capture": {
+                "CAMERA_USAGE_DESCRIPTION": "This app uses your camera",
+                "MICROPHONE_USAGE_DESCRIPTION": " ",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": " "
+            },
+            "cordova-plugin-ios-ble-permissions": {}
+        }
     }
 }
