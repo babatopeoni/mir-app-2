@@ -45,6 +45,10 @@
     <icon height="72" platform="ios" src="www/res/icon/ios/icon-72.png" width="72" />
     <icon height="114" platform="ios" src="www/res/icon/ios/icon-57-2x.png" width="114" />
     <icon height="144" platform="ios" src="www/res/icon/ios/icon-72-2x.png" width="144" />
+    <icon height="76" platform="ios" src="www/res/icon/ios/Icon-App-76x76@1x.png" width="76" />
+    <icon height="120" platform="ios" src="www/res/icon/ios/Icon-App-120x120@1x.png" width="120" />
+    <icon height="152" platform="ios" src="www/res/icon/ios/Icon-App-152x152@1x.png" width="152" />
+    
     <icon platform="webos" src="www/res/icon/webos/icon-64.png" />
     <icon platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
     <icon platform="winphone" role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
