@@ -9,6 +9,7 @@
         "cordova-plugin-file": "^4.3.3",
         "cordova-plugin-ios-ble-permissions": "^1.0.1",
         "cordova-plugin-media-capture": "^1.4.3",
+        "cordova-plugin-settings-hook": "^0.2.7",
         "gulp": "^3.9.1",
         "gulp-concat": "^2.2.0",
         "gulp-minify-css": "^0.3.0",
