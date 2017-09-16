@@ -16,8 +16,8 @@ angular.module('WordApp.config', [])
 .constant('POSTS_TEMPLATE', 'cards2')
 
 // Replace with your Android package name and IOS app ID
-.constant('ANDROID_PACKAGE_NAME', 'com.google.android.apps.maps')
-.constant('IOS_APP_ID', '<my_app_id>')
+.constant('ANDROID_PACKAGE_NAME', 'com.mirhassanmir.mirhasanapp')
+.constant('IOS_APP_ID', 'com.mirhassanmir.mirhasanapp')
 
 // Replace with your Primary Email to send Feedback
 .constant('PRIMARY_EMAIL', 'mirhasanmirr@gmail.com')

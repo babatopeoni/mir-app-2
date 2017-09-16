@@ -154,6 +154,20 @@ angular.module('WordApp', ['ionic', 'WordApp.controllers', 'WordApp.services', '
         }
     })
 
+
+
+    .state('app.live', {
+        url: "/live",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/live.html",
+                controller: 'SettingsCtrl'
+            }
+        }
+    })
+
+
+
     .state('app.about', {
         url: "/about",
         views: {
