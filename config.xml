@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mirhassanmir.mirhasanapp" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Mir Hasan Mir Offical App</name>
-    <description>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.mirhassanmir.mirhasanapp" version="1.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Mir Hasan Mir Official</name>
+  <description>
        Official App of Mir Hasan Mir
     </description>
     <author email="info@frisson.studio" href="http://frisson.studio/">
