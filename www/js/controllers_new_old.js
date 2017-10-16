@@ -76,7 +76,6 @@ angular.module('WordApp.controllers', [])
         // Item exists, use cached item
         $scope.post = postCache.get($scope.itemID);
         $scope.content = $sce.trustAsHtml($scope.post.content.rendered);
-        $scope.shownTab = $scope.post && $scope.post.tabs && $scope.post.tabs[0]; // set first tab active. #bluder
         // $scope.comments = $scope.post._embedded['replies'][0];
         console.log("post cache", $scope.post);
     }
@@ -187,7 +186,7 @@ angular.module('WordApp.controllers', [])
     // Tabs. #bluder
     $scope.toggleTab = function(tab) {
         if ($scope.isTabShown(tab)) {
-            //$scope.shownTab = null;
+            $scope.shownTab = null;
         } else {
             $scope.shownTab = tab;
         }

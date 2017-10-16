@@ -37,7 +37,7 @@
 	  <div class="item-body" ng-if="post.tabs.length > 0"  ng-style="{'fontSize': vm.fontSize + 'px'}">
       <ion-list>
         <div ng-repeat="(key, tab) in post.tabs">
-          <ion-item class="item-accordion" ng-show="isTabShown(tab)" ng-bind-html="tab.content | html_filters"></ion-item>
+          <ion-item class="item-accordion" ng-if="isTabShown(tab)" ng-bind-html="tab.content | html_filters"></ion-item>
         </div>
       </ion-list>
 	  </div>
