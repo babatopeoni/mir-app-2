@@ -76,6 +76,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="https://*youtube.com/*"/> 
+    <allow-navigation href="https://*audiomack.com/*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
