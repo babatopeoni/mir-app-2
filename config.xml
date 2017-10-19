@@ -70,12 +70,14 @@
     <splash height="1024" platform="ios" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
     <splash height="768" platform="ios" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <splash platform="winphone" src="www/res/screen/windows-phone/screen-portrait.png" />
+    <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="*"/> 
     <allow-navigation href="https://*youtube.com/*"/> 
     <allow-navigation href="https://*audiomack.com/*" />
     <allow-navigation href="*" />
